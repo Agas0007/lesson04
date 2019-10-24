@@ -12,10 +12,10 @@ let money = +prompt('Ваш месячный доход?', '120000'), //зада
 let deposit = confirm('Есть ли у Вас депозит в банке?');
     
 let monthlyExpenses = prompt('Какие обязательные ежемесячные расходы у вас есть?'),
-    expense = prompt('Во сколько это обойдется?', '10000');   
+    expense = +prompt('Во сколько это обойдется?', '10000');   
 
 let monthlyExpenses2 = prompt('Какие обязательные ежемесячные расходы у вас есть?'),
-    expense2 = prompt('Во сколько это обойдется?', '10000');   
+    expense2 = +prompt('Во сколько это обойдется?', '10000');   
 
 let budgetMonth = money - expense - expense2;
     
